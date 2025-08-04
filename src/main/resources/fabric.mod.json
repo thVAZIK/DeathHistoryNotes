@@ -5,7 +5,9 @@
   "name": "DeathHistoryNotes",
   "description": "Mod extensions for ChaosTheDude's Notes mod, which keeps a death history in a separate note",
   "authors": ["thVAZIK"],
-  "contact": {},
+  "contact": {
+    "sources": "https://github.com/thVAZIK/DeathHistoryNotes"
+  },
   "license": "MIT",
   "icon": "assets/deathhistorynotes/icon.png",
   "environment": "client",
