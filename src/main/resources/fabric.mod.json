@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "deathhistorynotes",
+  "version": "${version}",
+  "name": "DeathHistoryNotes",
+  "description": "Mod extensions for ChaosTheDude's Notes mod, which keeps a death history in a separate note",
+  "authors": ["thVAZIK"],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/deathhistorynotes/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "net.thvazik.deathhistorynotes.client.DeathhistorynotesClient"
+    ],
+    "main": [
+      "net.thvazik.deathhistorynotes.Deathhistorynotes"
+    ]
+  },
+  "mixins": [
+    "deathhistorynotes.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
