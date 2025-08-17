@@ -13,7 +13,7 @@ DeathHistoryNotes is a Minecraft mod-extension designed to enhance your gameplay
 
 ## Requirements
 
-- Minecraft 1.21.5 (for now)
+- Minecraft 1.21.5-1.21.8
 - [Notes](https://modrinth.com/mod/notes)
 - [Fabric API](https://modrinth.com/mod/fabric-api)
 - [Fabric Loader >=0.16.14](https://github.com/FabricMC/fabric-loader)
